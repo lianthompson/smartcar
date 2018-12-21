@@ -1,0 +1,56 @@
+.getButtonContainer {
+    width: 80%;
+    border: 3px solid #49cc90;
+    background: rgba(73,204,144,.1);
+    border-radius: 5%;
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.deleteButtonContainer {
+    width: 80%;
+    border: 3px solid #fca130;
+    background: rgba(252,161,48,.1);
+    border-radius: 5%;
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.postButtonContainer {
+    width: 80%;
+    border: 3px solid #61affe;
+    background: rgba(97,175,254,.1);
+    border-radius: 5%;
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.getButton {
+    background: green;
+    color: white;
+    border-radius: 5%;
+    border: 1px solid green;
+    justify-content: left;
+    margin: 5px;
+}
+
+.postButton {
+    background: #61affe;
+    color: white;
+    border-radius: 5%;
+    border: 1px solid #61affe;
+    justify-content: left;
+    margin: 5px;
+}
+
+.deleteButton {
+    background: #fca130;
+    color: white;
+    border-radius: 5%;
+    border: 1px solid #fca130;
+    justify-content: left;
+    margin: 5px;
+}
